@@ -21,4 +21,4 @@ size_t binary_tree_nodes(const binary_tree_t *tree)
 
 	/* If no children, don't count this node, just count in subtrees */
 	return (binary_tree_nodes(tree->left) + binary_tree_nodes(tree->right));
-} 
+}
